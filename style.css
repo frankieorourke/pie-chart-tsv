@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  position: relative
 }
 .title-holder {
   text-align: center;
@@ -18,28 +19,11 @@ body {
 .legend {
   font-size: 14px;
 }
-rect {
-  cursor: pointer; 
-  stroke-width: 2;
-}
-rect.disabled {
-  fill: transparent !important;
-}
-
-/* chart */
-#chart {
-  height: 800px;
-  margin: 0 auto;
-  position: relative;
-  display: block;
-  width: 1200px;
-}
-
 /* tooltip */
 .tooltip {
   background: #eee;
   box-shadow: 0 0 5px #999999;
-  color: #333;
+  color: BLACK;
   display: none;
   font-size: 18px;
   left: 130px;
@@ -50,7 +34,6 @@ rect.disabled {
   width: 80px;
   z-index: 10;
 }
-
 .footer {
   padding-top: 50px;
   text-align: center;
